@@ -1,0 +1,182 @@
+
+body{
+background-color: black;
+}
+
+#top-container {
+min-height:100px;
+height:auto;
+
+}
+
+.logo{
+height:100px;
+padding:5px;
+text-align:center;
+float:left; 
+position: sticky;
+top: 0;
+z-index: 1;
+position: fixed;
+top: 0;
+width: 100%;
+margin: 20px;
+display: flex;
+justify-content: space-between;
+transition-timing-function: ease-in;
+transition: all 0.5s;  
+}
+
+.menu{
+height:100px;
+line-height:100px;
+text-align:center;
+float: middle;
+border-left: solid 1px red;
+position: sticky;
+margin: 20px;
+top: 0;
+z-index: 1;
+position: fixed;
+top: 0;
+width: 100%;
+display: flex;
+justify-content: space-between;
+transition-timing-function: ease-in;
+transition: all 0.5s;
+}
+
+.menu a{
+color:#666666;
+text-decoration:none;
+margin: 0 -.25rem;
+padding:  0 -.25rem;
+transition: color 1s ease-in-out, box-shadow .3s ease-in-out;
+
+}
+
+.menu a:hover{
+color: white;
+text-decoration:underline;
+box-shadow: inset 200px 000 #4f4d4d;
+}
+
+#slider-container {
+height:400px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color: #666666;
+margin: 20px
+}
+#posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+  margin:20px;
+  max-height: 400px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.Button {
+color: rgb(112, 117, 125); 
+font-size: 17px; line-height: 17px; padding: 16px; border-radius: 
+50px;  
+border: 0px solid rgb(28, 110, 164);
+display: inline-block;
+}
+.Button a{
+color: #666666;
+}
+.Button:hover {
+background: #FF0000 ; }
+.Button:active {
+background: #666666; }
+
+#content-container {
+height:280px;
+height:auto;
+margin:20px;
+padding: 20px;
+font-size: 25px;
+}
+#content-container a{
+color:#a2afb8;
+text-decoration:none;
+margin: 0 -.25rem;
+padding:  0 -.25rem;
+transition: color 1s ease-in-out, box-shadow .3s ease-in-out;
+
+}
+#content-container a:hover{
+color: white;
+text-decoration:underline;
+box-shadow: inset 200px 000 #4f4d4d;
+}
+
+.content-box {
+float:middle;
+border-left: dotted 3px red;
+overflow:hidden;
+font-size:13px;
+text-align:center;
+margin:20px;
+color: #9f9f9f;
+
+}
+b{
+	margin: 5px;
+}
+.content-box a{
+color:#a2afb8;
+text-decoration:none;
+margin: 0 -.25rem;
+padding:  0 -.25rem;
+transition: color 1s ease-in-out, box-shadow .3s ease-in-out; 
+}
+.content-box a:hover{
+color: white;
+text-decoration:underline;
+box-shadow: inset 200px 000 #4f4d4d;
+}
+.poster {
+  max-height: 250px;
+  height: 200;
+  width: auto;
+  transition: transform 250ms;
+  margin :20px;
+}
+.poster:hover{
+	transform: scale(1.25);
+	
+}
+
+#footer-container {
+line-height:auto;
+color:#000000;
+font-size: 20px;
+
+}
+
+
+.footer-content{
+text-align:center;
+overflow-x: auto;
+overflow-y: hidden;
+white-space: nowrap;
+background-color:#666666;
+
+}
+.footer-content a{
+color:black;
+text-decoration:none;
+margin: 0 -.25rem;
+padding:  0 -.25rem;
+transition: color .5s ease-in-out, box-shadow .3s ease-in-out;
+}
+.footer-content a:hover{
+color: white;
+text-decoration:underline;
+}
